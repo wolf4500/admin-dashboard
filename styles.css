@@ -1,6 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: Roboto;
 }
 
 body { 
@@ -16,10 +17,63 @@ body {
 }
 
 .sidebar-container {
-    display: grid;
+    padding-left: 15px;
+    padding-top: 15px;
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     border: 1px solid black;
+    background-color: #0ea5e9;
+    color: white;
+}
+
+.dashboard {
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+#dash {
+    width: 50px;
+}
+
+.sidebar-containers {
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.sidebar-icon {
+    margin-right: 10px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(99deg) brightness(103%) contrast(103%);
+    height: auto;
+    width: 30px;
+}
+
+.settings-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.support-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar-top {
+    display: grid;
+    margin-bottom: 30px;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.sidebar-bottom {
+    display: grid;
+    gap: 15px;
+    font-size: 20px;
 }
 
 .header {
