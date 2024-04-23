@@ -20,7 +20,7 @@ body {
     padding-top: 15px;
     grid-column: 1 / 2;
     grid-row: 1 / 3;
-    background-color: #0ea5e9;
+    background-color: #662d91;
     color: white;
 }
 
@@ -87,8 +87,9 @@ body {
     display: grid;
     grid-template-columns: 3fr 2fr;
     grid-template-rows: 1fr 1fr;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 3px 3px 5px lightgrey;
 }
 
 .search {
@@ -179,7 +180,7 @@ body {
 }
 
 .button {
-    background-color: #0ea5e9;
+    background-color: #662d91;
     height: 40px;
     width: 100px;
     display: flex;
@@ -205,7 +206,7 @@ body {
     font-size: 20px;
     display: flex;
     align-items: center;
-    font-weight: bold;
+    font-weight: 900;
     margin-left: 20px;
     padding-top: 10px;
 }
@@ -224,6 +225,8 @@ body {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+    border-left: 8px solid orange;
+    box-shadow: 3px 3px 3px lightgrey;
 }
 
 .card-text {
@@ -282,6 +285,7 @@ body {
     border-radius: 10px;
     background-color: white;
     height: 70%;
+    box-shadow: 3px 3px 3px lightgrey;
 }
 
 .announce-text {
@@ -322,6 +326,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    box-shadow: 3px 3px 3px lightgrey;
 }
 
 .img-container {
