@@ -288,7 +288,7 @@ body {
     box-shadow: 3px 3px 3px lightgrey;
 }
 
-.announce-text {
+.announce-text, .community-text, .updated-text {
     font-size: 15px;
     font-weight: 900;
 }
