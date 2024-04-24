@@ -175,7 +175,7 @@ body {
     grid-row: 2 / 3;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     margin-right: 40px;
 }
 
